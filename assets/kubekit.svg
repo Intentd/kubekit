@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 96" role="img" aria-label="kubekit, Kubernetes building blocks for Go">
+  <style>
+    .ref { fill: none; stroke: #326CE5; stroke-width: 3; stroke-linecap: round; }
+    .owner { fill: #326CE5; }
+    .child { fill: none; stroke: #326CE5; stroke-width: 2.5; stroke-linejoin: round; }
+    .wordmark { fill: #14213D; }
+    .subtitle { fill: #5B6475; }
+    @media (prefers-color-scheme: dark) {
+      .ref { stroke: #6E9BF5; }
+      .owner { fill: #6E9BF5; }
+      .child { stroke: #6E9BF5; }
+      .wordmark { fill: #F0F3F6; }
+      .subtitle { fill: #A3ACBA; }
+    }
+  </style>
+
+  <!-- Mark: an owner object (filled heptagon) with three resources it owns (outlined heptagons), joined by owner references -->
+  <g transform="translate(16 24)">
+    <path class="ref" d="M26 24 L44 24 M36 24 L36 6 L52 6 M36 24 L36 42 L52 42 M44 24 L52 24"/>
+    <g transform="translate(13 24)">
+      <polygon class="owner" points="0.00,-13.00 10.16,-8.11 12.67,2.89 5.64,11.71 -5.64,11.71 -12.67,2.89 -10.16,-8.11" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(61 6)">
+      <polygon class="child" points="0.00,-7.00 5.47,-4.37 6.82,1.56 3.04,6.31 -3.04,6.31 -6.82,1.56 -5.47,-4.37"/>
+    </g>
+    <g transform="translate(61 24)">
+      <polygon class="child" points="0.00,-7.00 5.47,-4.37 6.82,1.56 3.04,6.31 -3.04,6.31 -6.82,1.56 -5.47,-4.37"/>
+    </g>
+    <g transform="translate(61 42)">
+      <polygon class="child" points="0.00,-7.00 5.47,-4.37 6.82,1.56 3.04,6.31 -3.04,6.31 -6.82,1.56 -5.47,-4.37"/>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <text class="wordmark" x="104" y="54"
+        font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="38" font-weight="700" letter-spacing="0.5">kubekit</text>
+  <text class="subtitle" x="106" y="74"
+        font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="10.5" font-weight="600" letter-spacing="1.2">KUBERNETES BUILDING BLOCKS FOR GO</text>
+</svg>
